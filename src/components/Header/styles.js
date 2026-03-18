@@ -18,7 +18,7 @@ export const Container = styled.header`
 `;
 
 
-export const Logo = styled.h1`
+export const Logo = styled.img`
     font-size: 24px;
     font-weight: bold;
     color: ${({ theme }) => theme.colors.primary};

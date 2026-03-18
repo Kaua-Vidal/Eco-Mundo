@@ -1,9 +1,10 @@
 import { ButtonQuiz, Container, Logo, Nav, NavItem } from "./styles";
+import LogoImg from "../../assets/logo.svg";
 
 export default function Header() {
     return (
         <Container>
-            <Logo>EcoMundo</Logo>
+            <Logo src={LogoImg}></Logo>
 
             <Nav>
                 <NavItem>Fontes de Energia</NavItem>

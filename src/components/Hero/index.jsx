@@ -1,5 +1,10 @@
+import Button from "../Button";
 import { Container } from "./styles";
 
 export default function Hero() {
-    return <Container/>
+    return (
+        <main>
+            <Container />
+        </main>
+    )
 }
