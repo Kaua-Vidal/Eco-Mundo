@@ -4,11 +4,9 @@ import Explore from "../pages/ExplorePage/Explore"
 
 export default function AppRoutes() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/explorar/:tipo' element={<Explore/>}/>
-            </Routes>
-        </BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/explorar/:tipo' element={<Explore />} />
+        </Routes>
     )
 }

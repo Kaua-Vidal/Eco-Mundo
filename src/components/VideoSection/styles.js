@@ -28,13 +28,14 @@ export const Section = styled.section`
 
 export const VideoBackground = styled.div`
     position: absolute;
+    overflow: hidden;
     inset: 0;
     z-index: 1;
 
     iframe {
         width: 100%;
         height: 100%;
-        pointer-events: none;
+        pointer-events: auto;
     }
 `
 
@@ -45,6 +46,9 @@ export const Content = styled.div`
 
     width: 100%;
     padding: 60px;
+
+    pointer-events: none;
+    
 
     background: linear-gradient(
     to top,
