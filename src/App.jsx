@@ -3,14 +3,14 @@ import { GlobalStyle } from './styles/global'
 import { theme } from './styles/theme'
 import Header from './components/Header'
 import Home from './pages/Home'
+import AppRoutes from './routes'
 
 function App() {
 
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle/>
-      <Header/>
-      <Home/>
+      <AppRoutes/>
     </ThemeProvider>
   )
 }

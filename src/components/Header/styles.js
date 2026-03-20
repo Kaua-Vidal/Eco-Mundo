@@ -19,8 +19,9 @@ export const Container = styled.header`
 
 
 export const Logo = styled.img`
-    font-size: 24px;
+    width: 100px;
     font-weight: bold;
+    fill: #fff;
     color: ${({ theme }) => theme.colors.primary};
 `;
 
@@ -41,26 +42,6 @@ export const NavItem = styled.a`
 
     &:hover {
         transform: translateY(-2px);
-    }
-
-`;
-
-export const ButtonQuiz = styled.button`
-    padding: 8px 16px;
-
-    border-radius: 20px;
-    border: 1px solid #fff;
-
-    background: transparent;
-    color: #fff;
-
-    cursor: pointer;
-
-    transition: all 300ms ease;
-
-    &:hover {
-        background: #fff;
-        color: black;
     }
 
 `;

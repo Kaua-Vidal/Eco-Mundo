@@ -1,11 +1,12 @@
-import { Container, Description, Image, Title } from "./styles";
+import { Button, Container, Image, Title } from "./styles";
 
-export default function Card({img, title, description}) {
+export default function Card({img, title, children, onClick}) {
     return (
-        <Container>
+        <Container >
             <Image src={img}/>
             <Title>{title}</Title>
-            <Description>{description}</Description>
+
+            <Button onClick={onClick}>{children}</Button>
         </Container>
     )
 }

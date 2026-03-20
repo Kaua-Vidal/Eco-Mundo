@@ -1,5 +1,5 @@
-import { ButtonQuiz, Container, Logo, Nav, NavItem } from "./styles";
-import LogoImg from "../../assets/logo.svg";
+import { Container, Logo, Nav, NavItem } from "./styles";
+import LogoImg from '../../assets/logo.png'
 
 export default function Header() {
     return (
@@ -11,8 +11,6 @@ export default function Header() {
                 <NavItem>Sustentabilidade</NavItem>
                 <NavItem>Curiosidades</NavItem>
             </Nav>
-
-            <ButtonQuiz>Quiz</ButtonQuiz>
         </Container>
     )
 }

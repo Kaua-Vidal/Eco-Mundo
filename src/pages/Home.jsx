@@ -1,13 +1,13 @@
-import ActionButtons from "../components/ActionButtons";
 import Hero from "../components/Hero";
-import CardGrid from "../components/CardGrid";
+import HorizontalCarousel from "../components/HorizontalCarousel";
 
 export default function Home() {
     return (
         <main>
-            <Hero/>
-            <ActionButtons/>
-            <CardGrid/>
+            <Hero>
+                <HorizontalCarousel/>
+            </Hero>
+            
         </main>
         
     )
