@@ -4,6 +4,7 @@ import VideoSection from "../../components/VideoSection";
 import { Container } from "./styles";
 import HeroSection from "../../components/HeroSection";
 import TextSection from "../../components/TextSection";
+import ImageSection from "../../components/ImageSection";
 
 
 export default function Explore() {
@@ -31,6 +32,10 @@ export default function Explore() {
 
                     if (item.type === "text") {
                         return <TextSection key={index} description={item.description} titleText={item.titleText}/>
+                    }
+
+                    if (item.type === "image"){
+                        return <ImageSection key={index} description={item.description} image={item.src}/>
                     }
 
                     return null;
